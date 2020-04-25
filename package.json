@@ -1,0 +1,22 @@
+{
+  "name": "PixelCorder",
+  "version": "1.0.0",
+  "description": "An easy to use screen recorder built with Electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Screen",
+    "Recorder"
+  ],
+  "author": "Reuben Tier",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.2.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "node-notifier": "^6.0.0"
+  }
+}

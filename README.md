@@ -5,7 +5,7 @@ PixelCorder is an easy to use screen recorder created using Electron.
 
 # Install PixelCorder
 
-PixelCorder currently offers binary installers for Windows x64, Windows x32 and Linux x32.
+PixelCorder currently offers binary installers for Windows x64.
 You can find the latest stable version on the releases page.
 
 

@@ -58,7 +58,11 @@
     "Screen",
     "Recorder"
   ],
-  "author": "Reuben Tier",
+  "author": {
+    "name": "Reuben Tier",
+    "email": "otterlord@nowhere.void",
+    "url": "https://github.com/TheOtterlord"
+  },
   "license": "MIT",
   "devDependencies": {
     "electron": "^10.0.0",

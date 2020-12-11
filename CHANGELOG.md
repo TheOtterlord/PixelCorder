@@ -3,6 +3,17 @@
 All notable changes to PixelCorder and its features will be documented here.
 
 
+## 1.0.1 - 2020/12/11
+
+## Added
+
+- Installers for all 3 major platforms (win, mac, linux)
+
+### Changed
+
+- Changed builder to `electron-builder`
+
+
 ## 1.0.0 - 2020/04/24
 
 ### Added

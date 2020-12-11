@@ -1,5 +1,5 @@
 {
-  "name": "PixelCorder",
+  "name": "pixel-corder",
   "version": "1.0.0",
   "description": "An easy to use screen recorder built with Electron",
   "main": "index.js",

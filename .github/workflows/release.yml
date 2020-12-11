@@ -20,6 +20,7 @@ jobs:
     - run: npm run build
 
   release:
+    needs: [build]
 
     runs-on: ubuntu-latest
 

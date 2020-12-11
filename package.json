@@ -21,6 +21,30 @@
       "css/",
       "js/"
     ],
+    "mac": {
+      "category": "macOS.application"
+    },
+    "dmg": {
+			"artifactName": "mac-installer.${ext}",
+			"window": {
+				"x": 150,
+				"y": 100,
+				"width": 600,
+				"height": 400
+			},
+			"contents": [
+				{
+					"x": 130,
+					"y": 120
+				},
+				{
+					"x": 360,
+					"y": 120,
+					"type": "link",
+					"path": "/Applications"
+				}
+			]
+		},
     "win": {
       "icon": "favicon.ico",
       "target": [
@@ -37,6 +61,7 @@
       "icon": "favicon.png",
       "artifactName": "linux-installer.${ext}",
       "target": [
+        "deb",
         "rpm"
       ],
       "category": "Editor"

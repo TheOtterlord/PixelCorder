@@ -3,6 +3,20 @@
 All notable changes to PixelCorder and its features will be documented here.
 
 
+## 1.0.3 - 2020/12/11
+
+### Bug fixes
+
+- Fixed an issue that caused `electron.remote` to be `undefined`
+
+
+## 1.0.2 - 2020/12/11
+
+### Bug fixes
+
+- Fixed build process to include all required files
+
+
 ## 1.0.1 - 2020/12/11
 
 ## Added

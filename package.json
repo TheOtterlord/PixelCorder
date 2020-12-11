@@ -4,7 +4,55 @@
   "description": "An easy to use screen recorder built with Electron",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "dev": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "productName": "DeckMaster",
+    "appId": "dev.theotterlord.deckmaster",
+    "artifactName": "win-installer.${ext}",
+    "directories": {
+      "output": "build"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "bg.webp",
+      "css/",
+      "js/"
+    ],
+    "win": {
+      "icon": "favicon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    },
+    "linux": {
+      "icon": "favicon.png",
+      "artifactName": "linux-installer.${ext}",
+      "target": [
+        "rpm"
+      ],
+      "category": "Editor"
+    },
+    "fileAssociations": [
+      {
+        "ext": "ydk",
+        "name": "Yu-Gi-Oh! deck",
+        "role": "Editor"
+      },
+      {
+        "ext": "ycb",
+        "name": "Yu-Gi-Oh! combo",
+        "role": "Editor"
+      }
+    ]
   },
   "keywords": [
     "Screen",
@@ -13,10 +61,10 @@
   "author": "Reuben Tier",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^8.2.0"
+    "electron": "^10.0.0",
+    "electron-builder": "latest"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0",
     "node-notifier": "^6.0.0"
   }
 }

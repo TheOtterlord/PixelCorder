@@ -10,7 +10,7 @@
   "build": {
     "productName": "DeckMaster",
     "appId": "dev.theotterlord.deckmaster",
-    "artifactName": "win-installer.${ext}",
+    "artifactName": "installer-win.${ext}",
     "directories": {
       "output": "build"
     },
@@ -25,7 +25,7 @@
       "category": "macOS.application"
     },
     "dmg": {
-			"artifactName": "mac-installer.${ext}",
+			"artifactName": "installer-mac.${ext}",
 			"window": {
 				"x": 150,
 				"y": 100,
@@ -59,7 +59,7 @@
     },
     "linux": {
       "icon": "favicon.png",
-      "artifactName": "linux-installer.${ext}",
+      "artifactName": "installer-linux.${ext}",
       "target": [
         "deb",
         "rpm"
